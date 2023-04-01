@@ -9,11 +9,16 @@ https://scryfall.com/
 https://developers.google.com/apps-script/guides/sheets/functions
 
 ## 3. Examples
-
-3.1. Get the newest value ([Gross Domestic Product, Series-ID = GDP](https://fred.stlouisfed.org/series/GDP)):
-
+### 3.1. Search for "Blac Lo" without setting a parameter to return all information.
 ```
 =scryfall("black lo")
 ```
 
-![grafik](https://user-images.githubusercontent.com/66874303/131311079-65da4d12-d301-4137-91f4-f26cdce14242.png
+![Scryfall](https://user-images.githubusercontent.com/66874303/229307460-ecc308c1-17e5-42d9-b5fa-6506c192a0a3.PNG)
+
+### 3.2. Search for "Blac Lo" with a parameter ("price") to return the cards price in €.
+```
+=scryfall("black lo"; "price")
+```
+
+![Scryfall2](https://user-images.githubusercontent.com/66874303/229307599-829c3ea0-1e6a-4d1c-8ee1-a78f2686fa71.PNG)
